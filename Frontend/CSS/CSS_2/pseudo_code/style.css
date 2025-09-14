@@ -1,0 +1,43 @@
+/* universal selector */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
+}
+/* Element Selector */
+h3{
+    color: chocolate;
+}
+
+h1,h4{
+    color:#b92b27;
+}
+/* ID Selector */
+#login{
+    background-color: aliceblue;
+    color: black;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: whitesmoke;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: blueviolet;
+    color:whitesmoke;
+}
+
+button:hover{
+    background-color: aqua;
+    color:black ;
+ }
+
+button :active{
+    background-color: hotpink;
+}
+
+input[type="radio"] :checked + label {
+    color:red;
+    font-weight: bold;
+}
