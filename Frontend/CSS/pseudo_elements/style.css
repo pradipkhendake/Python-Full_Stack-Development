@@ -42,3 +42,14 @@ input[type="radio"] :checked + label {
     font-weight: bold;
 }
 
+h1::first-letter{
+    background-color: white;
+}
+
+p::first-line{
+    color:purple;
+}
+
+p::selection{
+    background-color: aqua;
+}
