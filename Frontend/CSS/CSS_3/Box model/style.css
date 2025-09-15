@@ -1,11 +1,31 @@
 div{
     height:200px;
-    width: 800px;
+    width: 400px;
     background-color: bisque;
+    /* border-radius: 5px; */
+    /* border-top-right-radius: 200px ; */
 }
 
 div{
     border-style: dashed;
     border-width: 2px;
     border-color: aqua;
+
 }
+
+h1{
+    border:2px dotted purple ;
+}
+
+h1{
+    border-bottom-color: palevioletred;
+    border-radius: 15px;
+}
+
+button{
+ padding: 20px;
+}
+ div{
+    padding: 200px;
+    margin:60px;
+ }
