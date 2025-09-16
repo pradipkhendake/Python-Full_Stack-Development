@@ -17,3 +17,21 @@ h1{
     background-color: purple;
     margin:20%;
 }
+
+#out{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    font-size: 40px;
+}
+
+#in{
+   height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 0.5rem;
+}
+
+div{
+    font-size: 0.5rem;
+}
