@@ -1,0 +1,56 @@
+h2{
+  color:rgb(241, 103, 103)
+}
+
+span{
+  color:rgb(186, 129, 55);
+}
+
+#pets{
+  height:200px;
+  width:100%;
+  display: flex;
+
+}
+
+.card{
+  height:500px;
+  width:400PX;
+  border:2px solid black;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-shrink:auto;
+}
+
+.img{
+  height:200px;
+  width:100%;
+  border-radius: 20px;
+}
+h3{
+  font-style: bolder;
+  font-size: 20px;
+  padding-left: 10px;
+}
+p{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h4 {
+  color: rgb(74, 74, 233);
+  text-align: end;
+  position: relative;
+  /* right: -210px; */
+  margin-top: 500px;
+/* font-display: block; */
+}
+
+@media(max-width:375px){
+  #pets{
+    flex-wrap:wrap;
+  }
+
+}
