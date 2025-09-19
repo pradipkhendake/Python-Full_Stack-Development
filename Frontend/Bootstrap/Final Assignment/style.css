@@ -1,3 +1,54 @@
-#pricing{
+#pricing {
     text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;         /* allows cards to wrap */
+    justify-content: center; /* keeps cards centered */
+    gap: 100px;               /* spacing between cards */
+}
+
+.card-header {
+    background-color: rgb(217, 212, 212);
+    text-align: center;
+}
+
+.card-body {
+    border: 1px solid rgb(188, 186, 186);
+}
+
+
+.box {
+    margin: 60px;
+}
+
+/* 🔹 Media query: when screen ≤ 500px */
+@media (max-width: 500px) {
+  #cards {
+    flex-direction: column;   /* stack cards vertically */
+    align-items: center;      /* center them */
+  }
+
+  .box {
+    max-width: 90%;           /* shrink width */
+    margin: 10px 0;           /* reduce margin */
+  }
+
+  .card-body {
+    font-size: 14px;          /* smaller text */
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card button {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-left: 0;           /* center button */
+    display: block;
+    margin: 0 auto;
+  }
 }
