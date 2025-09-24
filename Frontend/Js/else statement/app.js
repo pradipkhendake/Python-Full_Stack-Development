@@ -8,6 +8,6 @@ else if(size=="L"){
 else if(size=="M"){
     console.log("Price is RS.100")
 }
-else if(size=="S"){
+else {
     console.log("Price is RS.50")
 }
