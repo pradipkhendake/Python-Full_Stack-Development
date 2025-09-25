@@ -1,5 +1,14 @@
-let p = prompt('Enter Which table you want to print');
-let n=parseInt(prompt);
-for (let i=n ; i<=n*10;i=i+n){
-   console.log(i)
+let favourite = "Avatar"
+
+let guess = prompt("Guess My Favourite movie");
+
+while((guess!=favourite) && (guess != 'quite')){
+   guess = prompt("PLease try again..!!")
+}
+
+if(guess==favourite){
+   console.log("Congratulations......!!!")
+}
+else if(guess=='quite'){
+   console.log("Sorry..You Quited Game...!!")
 }
